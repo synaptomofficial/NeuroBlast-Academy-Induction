@@ -114,7 +114,7 @@ form_data['batch_details'] = st.data_editor(
             "Fee (INR)",
             help="The fee for the batch in Rupees",
             min_value=0,
-            format="%%d",
+            format="%d",
         ),
         "Unit": st.column_config.SelectboxColumn(
             "Unit",
