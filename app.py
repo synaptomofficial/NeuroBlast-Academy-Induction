@@ -81,7 +81,7 @@ st.markdown("##### Batch Details *")
 # Using st.data_editor for a table-like input
 df = pd.DataFrame(
     [
-        {"Batch Name / ID": "e.g., U-15 Boys", "No. of Players": 25, "Gender": "Boys", "Age Group": "14-15", "Level of Training": "Intermediate", "Avg. Duration (Months)": 2.0, "Fee (₹ *Not Mandatory)": 0, "Unit": "Per Month"},
+        {"Batch Name / ID": "e.g., U-15 Boys", "No. of Players": 0, "Gender": "Choose from options", "Age Group": "14-15", "Level of Training": "Choose from options", "Avg. Duration (Months)": 2.0, "Fee (₹ *Not Mandatory)": 0, "Unit": "Choose from options"},
     ]
 )
 form_data['batch_details'] = st.data_editor(
